@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/Hour-Calculator/static/css/main.3989bb3c.css",
+    "main.css": "/Hour-Calculator/static/css/main.0ec4168d.css",
     "main.js": "/Hour-Calculator/static/js/main.7d10964d.js",
     "index.html": "/Hour-Calculator/index.html",
-    "main.3989bb3c.css.map": "/Hour-Calculator/static/css/main.3989bb3c.css.map",
+    "main.0ec4168d.css.map": "/Hour-Calculator/static/css/main.0ec4168d.css.map",
     "main.7d10964d.js.map": "/Hour-Calculator/static/js/main.7d10964d.js.map"
   },
   "entrypoints": [
-    "static/css/main.3989bb3c.css",
+    "static/css/main.0ec4168d.css",
     "static/js/main.7d10964d.js"
   ]
 }
