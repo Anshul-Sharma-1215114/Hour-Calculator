@@ -28,3 +28,27 @@ h2{
     margin-top: 15px;
     font-family: Arial;
 }
+
+@font-face {
+    font-family: "roboto";
+    src: url("./Roboto-Black.ttf") format("truetype");
+  }
+
+#checkout{
+    color: white;
+    font-family: monospace;
+    margin-top: 235px;
+}
+#logo > a {
+    color:#595959;
+    font-size: 25px;
+    cursor: pointer;
+    font-family: roboto;
+    margin-top: 11px;
+    width: fit-content;
+    display: inline-block;
+    text-decoration: none;
+}
+#logo > a:hover{
+    color: white;
+}

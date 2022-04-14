@@ -24,6 +24,8 @@ const Calculator = function(){
                 sethrs("0 Hours, 0 Minutes");}}>clear</button>
             <h2 className="result" id="mins">{ (mins.toString()==='0 Minutes')?'Lagging/Ahead By :': (mins.toString().includes('-')) ? 'Lagging By : ' : 'Ahead By : '} {mins.replaceAll('-','')}</h2>
             <h2 className="result" id="hrmins">{ (mins.toString()==='0 Minutes')?'Lagging/Ahead By :': (mins.toString().includes('-')) ? 'Lagging By : ' : 'Ahead By : '} {hrs.replaceAll('-','')}</h2>
+            <p id="checkout">ALSO CHECK OUT</p>
+            <h3 id="logo"><a href="https://chintu-63eda.web.app/" target="_blank" rel="noreferrer">Chintu !</a></h3>
         </div>
     )
 }
