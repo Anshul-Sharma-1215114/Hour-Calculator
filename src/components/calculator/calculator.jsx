@@ -1,4 +1,5 @@
 import { useState } from "react";
+import Timer from "../timer/timer";
 import "./calculator.css";
 const Calculator = function(){
 
@@ -8,7 +9,10 @@ const Calculator = function(){
 
     return(
         <div className="calculator">
-            <h1>Hour Calulator</h1>
+            <div className="header">
+                <h1>Hour Calulator</h1>
+                <Timer />
+            </div>
             <textarea className="input" placeholder="Paste the Attendance hours here :" value={inputText} onChange={(e)=>{setInputText(e.target.value)}}/>
             <br></br>
             <button onClick={()=>{
@@ -24,8 +28,10 @@ const Calculator = function(){
                 sethrs("0 Hours, 0 Minutes");}}>clear</button>
             <h2 className="result" id="mins">{ (mins.toString()==='0 Minutes')?'Lagging/Ahead By :': (mins.toString().includes('-')) ? 'Lagging By : ' : 'Ahead By : '} {mins.replaceAll('-','')}</h2>
             <h2 className="result" id="hrmins">{ (mins.toString()==='0 Minutes')?'Lagging/Ahead By :': (mins.toString().includes('-')) ? 'Lagging By : ' : 'Ahead By : '} {hrs.replaceAll('-','')}</h2>
-            <p id="checkout">ALSO CHECK OUT</p>
-            <h3 id="logo"><a href="https://chintu-63eda.web.app/" target="_blank" rel="noreferrer">Chintu !</a></h3>
+            <div id="footer">
+                <p id="checkout">ALSO CHECK OUT</p>
+                <h3 id="logo"><a href="https://chintu-63eda.web.app/" target="_blank" rel="noreferrer">Chintu !</a></h3>
+            </div>
         </div>
     )
 }

@@ -1,0 +1,16 @@
+.timer{
+    font-family: monospace;
+    font-size: 18px;
+    position: absolute;
+    right: 65px;
+}
+.timer {
+    color: white;
+}
+.stopwatch-card{
+    margin-top: 8px;
+}
+.buttons > button{
+    width: 80px;
+    height: 35px;
+}
