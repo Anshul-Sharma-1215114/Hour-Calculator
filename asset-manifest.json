@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/Hour-Calculator/static/css/main.5f9d5ef3.css",
+    "main.css": "/Hour-Calculator/static/css/main.595e6c35.css",
     "main.js": "/Hour-Calculator/static/js/main.5672f714.js",
     "static/media/Roboto-Black.ttf": "/Hour-Calculator/static/media/Roboto-Black.2a4285847db4a9acb97f.ttf",
     "index.html": "/Hour-Calculator/index.html",
-    "main.5f9d5ef3.css.map": "/Hour-Calculator/static/css/main.5f9d5ef3.css.map",
+    "main.595e6c35.css.map": "/Hour-Calculator/static/css/main.595e6c35.css.map",
     "main.5672f714.js.map": "/Hour-Calculator/static/js/main.5672f714.js.map"
   },
   "entrypoints": [
-    "static/css/main.5f9d5ef3.css",
+    "static/css/main.595e6c35.css",
     "static/js/main.5672f714.js"
   ]
 }
